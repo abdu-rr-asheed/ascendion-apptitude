@@ -6,3 +6,13 @@
   --background-color: #f3f4f6; /* Example background color */
   --text-color: #111827; /* Example text color */
 }
+
+.ms-auto {
+  margin-left: auto;
+}
+
+input[type="search"] {
+    background-color: #eae8e8;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
