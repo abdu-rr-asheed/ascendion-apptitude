@@ -83,7 +83,7 @@ export default function Home() {
         {/* Footer */}
         <div className="text-center mt-8">
           <p className="text-gray-500 text-sm">
-            Good luck with your aptitude test!
+            Feel free to contact me if you need anything.
           </p>
         </div>
       </div>
