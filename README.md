@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ascendion Aptitude Test
+
+## Candidate Details  
+- **Name:** Abdur Rasheed  
+- **Email:** mra.rasheedd@gmail.com  
+- **Contact Number:** +94750844388  
+
+## Live Demo
+The project is deployed and can be accessed here:  
+🔗 [Live Demo](https://ascendion-apptitude.vercel.app/) - https://ascendion-apptitude.vercel.app/
+
+## Prerequisites
+
+Before running this project, make sure you have one of the following package managers installed:
+
+- [Node.js](https://nodejs.org/) (version 18 or higher) with npm
+- [Yarn](https://yarnpkg.com/)
+- [pnpm](https://pnpm.io/)
+- [Bun](https://bun.sh/)
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/abdu-rr-asheed/ascendion-apptitude.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd ascendion-apptitude
+```
+
+3. Install dependencies using your preferred package manager:
+
+**Using npm:**
+```bash
+npm install
+```
+
+**Using yarn:**
+```bash
+yarn install
+```
+
+**Using pnpm:**
+```bash
+pnpm install
+```
+
+**Using bun:**
+```bash
+bun install
+```
 
 ## Getting Started
 
-First, run the development server:
+Run the development server using one of the following commands:
 
+**Using npm:**
 ```bash
 npm run dev
-# or
+```
+
+**Using yarn:**
+```bash
 yarn dev
-# or
+```
+
+**Using pnpm:**
+```bash
 pnpm dev
-# or
+```
+
+**Using bun:**
+```bash
 bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page auto-updates as you edit the files - you can start by modifying `app/page.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+```
+ascendion-apptitude/
+├── app/                 # App directory (Next.js 13+ App Router)
+│   └── page.tsx        # Main page component
+├── public/             # Static assets
+├── next.config.ts      # Next.js configuration
+├── package.json        # Project dependencies and scripts
+└── README.md          # Project documentation
+```
+
+## Available Scripts
+
+- `dev` - Runs the development server
+- `build` - Creates an optimized production build
+- `start` - Starts the production server
+- `lint` - Runs ESLint for code linting
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm run start
+```
+
+## Technologies Used
+
+- **Next.js** - React framework with App Router
+- **TypeScript** - Type-safe JavaScript
+- **Geist Font** - Optimized font family from Vercel
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial
+- [Next.js GitHub repository](https://github.com/vercel/next.js) - feedback and contributions welcome
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
